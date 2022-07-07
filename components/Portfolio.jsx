@@ -42,7 +42,7 @@ const Portfolio = () => {
                     <div className="flex w-2/3 pl-3 pt-2 pb-2 pr-3 flex-col justify-center text-sm h-full">
                         <h3 className="font-Primary text-lg font-bold">Crossfire.Network</h3>
                         <h4 className="font-Secondary text-xs font-bold">WordPress | WooCommerce | Elementor</h4>
-                        <p className="font-Secondary text-sm pt-1 pb-1 lg:pr-4 leading-tight">An eCommerce platform that modernizes international clients' sales channels.</p>
+                        <p className="font-Secondary text-sm pt-1 pb-1 lg:pr-4 leading-tight">An eCommerce platform that modernizes international clients&apos; sales channels.</p>
                         <ul className="flex space-x-3 pt-0.5">
                             <li><a href="https://crossfire.network" target="_blank" rel="noreferrer"><CgWebsite size={20} color="#BF6330"/></a></li>
                         </ul>
