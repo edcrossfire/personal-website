@@ -9,7 +9,7 @@ const Footer = () => {
     <footer>
     <div className="box px-4 py-8 mx-auto sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 justify-items-center lg:grid-cols-3">
-        <div className="w-11 object-contain cursor-pointer my-auto">
+        <div className="w-11 object-contain cursor-pointer my-auto z-[-1]">
             <Link href="/">
             <Image src={LOGO} alt="logo" />
             </Link>

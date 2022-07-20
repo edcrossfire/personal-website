@@ -68,7 +68,7 @@ const Navbar = () => {
                     </a>
                 </ul>
                 </div>
-                <div className="grid place-items-center"><Social /></div>
+                <div className="grid place-items-center pb-4"><Social /></div>
             </div>
         </div>
     </div>

@@ -18,11 +18,11 @@ const Portfolio = () => {
                 <p className="pb-4">See examples of my work:</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-7 place-items-center">
 
             <div className="shadow-lg w-full h-40 rounded-md">
                 <div className="flex justify-between col w-full h-full">
-                    <div className="flex w-1/3 shadow-sm">
+                    <div className="flex w-1/3 shadow-sm z-[-1]">
                         <Image className="object-cover h-full rounded-l-md" src={SCREENSHOT1} alt="screenshot" />
                     </div>
                     <div className="flex w-2/3 pl-3 pt-2 pb-2 pr-3 flex-col justify-center text-sm h-full">
@@ -38,7 +38,7 @@ const Portfolio = () => {
 
             <div className="shadow-lg w-full h-40 rounded-md">
                 <div className="flex justify-between col w-full h-full">
-                    <div className="flex w-1/3 shadow-sm">
+                    <div className="flex w-1/3 shadow-sm z-[-1]">
                         <Image className="object-cover h-full rounded-l-md" src={SCREENSHOT5} alt="screenshot" />
                     </div>
                     <div className="flex w-2/3 pl-3 pt-2 pb-2 pr-3 flex-col justify-center text-sm h-full">
@@ -48,7 +48,7 @@ const Portfolio = () => {
                         <ul className="flex space-x-3 pt-0.5">
                             <li><a href="https://github.com/edcrossfire/ecommerce-sanity.git" target="_blank" rel="noreferrer"><FaGithub size={20} color="#BF6330"/></a></li>
                             <li><a href="https://ecommerce-sanity-one.vercel.app/" target="_blank" rel="noreferrer"><CgWebsite size={20} color="#BF6330"/></a></li>
-                            <li><a href="https://ecommerce-shoe-store.sanity.studio/" target="_blank" rel="noreferrer"><RiDashboardLine size={20} color="#BF6330"/></a></li>
+                            {/*<li><a href="https://ecommerce-shoe-store.sanity.studio/" target="_blank" rel="noreferrer"><RiDashboardLine size={20} color="#BF6330"/></a></li>*/}
                         </ul>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Portfolio = () => {
 
             <div className="shadow-lg w-full h-40 rounded-md">
                 <div className="flex justify-between col w-full h-full">
-                    <div className="flex w-1/3 shadow-sm">
+                    <div className="flex w-1/3 shadow-sm z-[-1]">
                         <Image className="object-cover h-full rounded-l-md" src={SCREENSHOT4} alt="screenshot" />
                     </div>
                     <div className="flex w-2/3 pl-3 pt-2 pb-2 pr-3 flex-col justify-center text-sm h-full">
@@ -72,7 +72,7 @@ const Portfolio = () => {
 
             <div className="shadow-lg w-full h-40 rounded-md">
                 <div className="flex justify-between col w-full h-full">
-                    <div className="flex w-1/3 shadow-sm">
+                    <div className="flex w-1/3 shadow-sm z-[-1]">
                         <Image className="object-cover h-full rounded-l-md" src={SCREENSHOT2} alt="screenshot" />
                     </div>
                     <div className="flex w-2/3 pl-3 pt-2 pb-2 pr-3 flex-col justify-center text-sm h-full">
@@ -89,7 +89,7 @@ const Portfolio = () => {
 
             <div className="shadow-lg w-full h-40 rounded-md">
                 <div className="flex justify-between col w-full h-full">
-                    <div className="flex w-1/3 shadow-sm">
+                    <div className="flex w-1/3 shadow-sm z-[-1]">
                         <Image className="object-cover h-full rounded-l-md" src={SCREENSHOT3} alt="screenshot" />
                     </div>
                     <div className="flex w-2/3 pl-3 pt-2 pb-2 pr-3 flex-col justify-center text-sm h-full">
