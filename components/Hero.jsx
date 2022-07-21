@@ -3,7 +3,7 @@ import Social from "../components/Social";
 
 const Main = () => {
   return (
-    <div id="home" className="box w-full h-full lg:h-[85vh] text-center">
+    <div id="home" className="box w-full h-full py-20 lg:h-[85vh] text-center">
         <div className="w-full h-full mx-auto p-2 py-16 flex flex-col justify-center items-center">
             <div>
                 <p className="text-base tracking-wide font-Secondary py-2">Let&apos;s create something together</p>
